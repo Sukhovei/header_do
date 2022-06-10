@@ -1,0 +1,19 @@
+/* Error: Top-level selectors may not contain the parent selector "&".
+ *   ,
+ * 6 |   &__search-store {
+ *   |   ^^^^^^^^^^^^^^^^
+ *   '
+ *   scss/components/header/header-media.scss 6:3  @import
+ *   scss/components/header/index.scss 2:9         @import
+ *   scss/index.scss 2:9                           root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Top-level selectors may not contain the parent selector "&".\a   \2577 \a 6 \2502    &__search-store {\a   \2502    ^^^^^^^^^^^^^^^^\a   \2575 \a   scss/components/header/header-media.scss 6:3  @import\a   scss/components/header/index.scss 2:9         @import\a   scss/index.scss 2:9                           root stylesheet';
+}

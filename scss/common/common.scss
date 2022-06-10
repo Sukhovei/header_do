@@ -1,0 +1,15 @@
+body{
+  font-family: $default-font;
+  font-size: 17px;
+}
+.container{
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+

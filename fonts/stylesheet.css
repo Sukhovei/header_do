@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Flow Circular';
+    src: local('Flow Circular Regular'), local('FlowCircular-Regular'),
+        url('FlowCircular-Regular.woff2') format('woff2'),
+        url('FlowCircular-Regular.woff') format('woff'),
+        url('FlowCircular-Regular.ttf') format('truetype'),
+        url('FlowCircular-Regular.svg#FlowCircular-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

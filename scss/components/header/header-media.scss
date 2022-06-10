@@ -1,0 +1,15 @@
+
+@media (max-width:1185px) {
+  .container {
+    max-width: 875px;
+  }
+  &__search-store {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
